@@ -1,0 +1,260 @@
+body{
+    background-color: rgb(3, 4, 94);
+}
+
+.kontajner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/way.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;  /* Určuje rozloženie prvkov na stránke. */
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex; /* Umožňuje nám nastavovať rozloženie prvkov */ 
+    align-items: center;
+    
+}
+
+.logo {
+    width: 109px;
+    cursor: pointer;
+    margin-left: -85px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+
+.logo:hover{
+    transform: translateY(-5px)
+}
+
+.menu {
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+
+nav {
+    flex: 1;
+    text-align: right; 
+    font-weight: bold; 
+}
+
+
+nav ul li {
+    list-style: none;   /* Vymaže bodkovanie z neusporiadaného zoznamu */
+    display: inline-block;   /* Usporiada menu za sebou */
+    margin-left: 40px;
+    font-size: 19px;
+     
+}
+
+nav ul li a {
+    text-decoration: none;  /* Odstráni podčierknutie z klikateľného odkazu */ 
+    color: rgb(4, 25, 85);
+    font-size: 17px;
+}
+
+.riadok {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.stlpec {
+    flex-basis: 50%;
+}
+
+li {
+    text-shadow: 1,5px 1,5px 2px rgb(103, 255, 255)
+}
+
+h1 {
+    color: azure;
+    font-size: 80px;
+}
+
+h4 {
+    color: azure;
+    font-size: 13px;
+    line-height: 15px;
+    text-shadow: rgb(23, 76, 190);
+    font-weight: bolder;
+    margin-top: 142px;
+}
+
+h6 {
+    color: azure;
+    font-size: 15px;
+    line-height: 15px;
+    text-shadow: rgb(23, 76, 190);
+    margin-top: 80px;
+}
+
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-top: 50px;
+   
+}
+
+a { 
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+a:link {
+    color: rgb(245, 252, 255);
+    
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+p {
+    color: azure;
+    font-size: 13px;
+    line-height: 15px;
+    text-shadow: rgb(23, 76, 190);
+    font-weight: bolder;
+    margin-top: 126px;
+    
+}
+
+button {
+    width: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 1px 5px 1px;
+    background:rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;     /* Vytvorí prechod vzhľadom na vlastnosť transform, prechod bude trvať pol sekundy */
+}
+
+
+.mriezka{
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: block;             /*  */
+    box-sizing: border-box;     /*  */
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.mriezka1{
+    background-image: url(../images/aaa.jpg);
+    min-width: 30%;     /* Minimálna šírka, aby sa nám obrázok úlne nescvrkol, zabezpečuje responzivitu stránky */
+    min-height: 45%;
+    height: 240px;
+}
+
+.mriezka2{
+    background-image: url(../video/deliver.gif);
+    min-width: 30%;     /* Minimálna šírka, aby sa nám obrázok úlne nescvrkol, zabezpečuje responzivitu stránky */
+    min-height: 45%;
+    height: 240px;
+}
+
+.mriezka:hover {
+    transform: translateY(-5px);    /* Obrázky sa po nadídení myšou pohnú po y osi smerom hore */
+}
+
+.button:hover {
+    transform: translateY(-5px);
+}
+
+.zoznam{
+    transition: transform 0.5s;
+}
+
+.zoznam:hover{
+    transform: translateY(-5px);
+}
+
+
+
+/** PÄTA     PÄTA      PÄTA     PÄTA    PÄTA **/
+
+h3{
+    color: whitesmoke;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 638px;
+    margin-right: 337px;
+    margin-bottom: 20px;    
+}
+
+.ig {
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.ig:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.fb {
+    margin-left: 8px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.fb:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.pin {
+    margin-left: 8px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.pin:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.ikony{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 207px;
+}
+
+
+.päta{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0,0,0,0.2)), url(../images/way.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;  /* Určuje rozloženie prvkov na stránke. */
+ 
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+

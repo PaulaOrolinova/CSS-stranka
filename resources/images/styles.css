@@ -1,0 +1,49 @@
+
+body {
+    background-color: hsla(100, 74%, 52%, 0.88);
+}
+
+h1{
+    color: indigo; font-size: 60px ; font-family: 'Lucida Sans', 'Courier New', Courier,;
+    text-decoration: overline;
+}
+
+h2{
+    color:rgb(106, 51, 168); font-size: 21px
+}
+
+p{
+    color: rgb(0, 0, 0); font-size: larger;
+}
+
+.zoznam {
+    color: rgb(10, 206, 36); font-size: larger;
+}
+
+.ingrediencie {
+    color:rgb(9, 9, 156)
+}
+
+.úvod {
+    border:4px outset rgb(190, 46, 118); background-color: greenyellow; text-align: center
+}
+
+.otázky {
+    border:3px outset rgb(1, 0, 5); background-color: rgb(138, 140, 245); text-align: center
+}
+
+ul > p {
+    color: blue;
+}
+
+ul + p {
+    color:rgb(60, 196, 201)
+}
+
+dd { 
+    line-height: 1.6em;     /* Upravuje šírku riadku */
+    letter-spacing: 0.05em;   /* Upravuje medzeru medzi písmenami */
+    word-spacing: 0.2em;      /* Upravuje medzery medzi slovami */
+    text-align: justify;      /* Umožňuje ovládať zarovnanie zextu */
+    text-indent: 20px;        /* Umožňuje odsasiť prvý ridok textu v rámci porvku */
+}
