@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(2, 2, 24);
+    background-color:rgb(8, 9, 49);
 }
 
 /** HLAVIČKA    HLAVIČKA    HLAVIČKA    HLAVIČKA    HLAVIČKA  **/
@@ -185,7 +185,7 @@ button:hover {
 }
 
 .sekcia {
-    background-image: linear-gradient(rgba(0, 180, 216, 0.171), rgba(0, 180, 216, 0.13)), url(../images/way.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.534)), url(../images/way.jpg);
     background-position: center;
     background-size: cover;
    
@@ -296,7 +296,7 @@ h4{
     background-position: center;
     background-size: cover;
     box-sizing: border-box;  /* Určuje rozloženie prvkov na stránke. */
-    margin-top: 20px;
+    margin-top: 60px;
     padding-top: 12px;
     padding-bottom: 20px;
 }

@@ -1,5 +1,7 @@
 body{
     background-color: rgb(3, 4, 94);
+    padding: 3px;
+    margin-bottom: 0px;
 }
 
 .kontajner {
@@ -192,69 +194,5 @@ button {
 
 .zoznam:hover{
     transform: translateY(-5px);
-}
-
-
-
-/** PÄTA     PÄTA      PÄTA     PÄTA    PÄTA **/
-
-h3{
-    color: whitesmoke;
-    font-size: 15px;
-    display: inline-block;
-    line-height: 20px;
-    margin-left: 638px;
-    margin-right: 337px;
-    margin-bottom: 20px;    
-}
-
-.ig {
-    display: inline-block;
-    transition: transform 0.5s;
-}
-
-.ig:hover{
-    transform: translateY(-5px);
-    cursor: pointer;
-}
-
-.fb {
-    margin-left: 8px;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-
-.fb:hover{
-    transform: translateY(-5px);
-    cursor: pointer;
-}
-
-.pin {
-    margin-left: 8px;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-
-.pin:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-}
-
-.ikony{
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 207px;
-}
-
-
-.päta{
-   
-    background-image: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0,0,0,0.2)), url(../images/way.jpg);
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;  /* Určuje rozloženie prvkov na stránke. */
- 
-    padding-top: 12px;
-    padding-bottom: 20px;
 }
 
