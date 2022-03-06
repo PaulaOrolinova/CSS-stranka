@@ -90,10 +90,17 @@ h4 {
     margin-top: 142px;
 }
 
+@font-face {
+    font-family: 'lucysaid';
+    src: url(../images/lucysaid.ttf);
+}
+
 h6 {
     color: azure;
+    font-family: 'lucysaid';
     font-size: 15px;
-    line-height: 15px;
+    line-height: 21px;
+    font-weight: lighter;
     text-shadow: rgb(23, 76, 190);
     margin-top: 80px;
 }
